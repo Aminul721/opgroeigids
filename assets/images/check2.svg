@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#1a205c;stroke-width:49.886;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<polyline class="st0" points="168.2,266.7 233.2,331.8 356,209.1 "/>
+<g>
+	<path d="M256,15c32.5,0,64.1,6.4,93.8,18.9c28.7,12.1,54.5,29.5,76.6,51.7c22.1,22.1,39.5,47.9,51.7,76.6
+		c12.6,29.7,18.9,61.3,18.9,93.8s-6.4,64.1-18.9,93.8c-12.1,28.7-29.5,54.5-51.7,76.6c-22.1,22.1-47.9,39.5-76.6,51.7
+		C320.1,490.6,288.5,497,256,497s-64.1-6.4-93.8-18.9c-28.7-12.1-54.5-29.5-76.6-51.7c-22.1-22.1-39.5-47.9-51.7-76.6
+		C21.4,320.1,15,288.5,15,256s6.4-64.1,18.9-93.8c12.1-28.7,29.5-54.5,51.7-76.6c22.1-22.1,47.9-39.5,76.6-51.7
+		C191.9,21.4,223.5,15,256,15 M256,0C114.6,0,0,114.6,0,256s114.6,256,256,256s256-114.6,256-256S397.4,0,256,0L256,0z" fill="#1a205c"/>
+</g>
+</svg>

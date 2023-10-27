@@ -1,0 +1,385 @@
+/* Mobile Menu Core Style*/
+.slicknav_btn { display: block;}
+.slicknav_menu  .slicknav_menutxt { display:inline-block;  }
+.slicknav_menu .slicknav_icon {
+	padding-right:0;
+}
+.slicknav_menu .slicknav_icon:before,
+.slicknav_open .slicknav_arrow:before,
+.slicknav_collapsed .slicknav_arrow:before {
+	font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #1a205c;
+    font-size:18px;
+    position: absolute;
+    top:4px;
+    left:0;
+}
+.slicknav_open .slicknav_arrow:before {
+	content:  "\f0d7";
+	left:inherit;
+	right:0;
+}
+.slicknav_open > a .slicknav_arrow:before { color:#37addb}
+.slicknav_collapsed .slicknav_arrow:before{ 
+	content: "\f0da";
+	left:inherit;
+	right:0;
+}
+.slicknav_open .slicknav_arrow,
+.slicknav_collapsed .slicknav_arrow {
+	position:relative;
+}
+.slicknav_menu .slicknav_icon:before {
+	font-family: "Ionicons";
+	content: "\f394";
+	font-size:30px;
+	right:0;
+	top:8px;
+	left:inherit;
+	color:#fff;
+	/*background:url(../images/menu_bar.png) no-repeat;*/
+	background-position:0 0;
+	width:30px;
+	height:30px;
+	display:block;
+}
+.slicknav_menu .slicknav_open .slicknav_icon:before {content: "\f2d7"; background-position:0 -30px}
+.slicknav_menu .slicknav_no-text { margin: 0 }
+.slicknav_menu .slicknav_icon-bar {}
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {}
+.slicknav_nav { clear: both }
+.slicknav_nav ul,
+.slicknav_nav li { display: block }
+.slicknav_nav .slicknav_arrow  { float:none; padding-left:17px}
+.slicknav_nav .menu-item-has-children > a.slicknav_item { padding-right:0}
+.slicknav_nav .slicknav_item { cursor: pointer; padding: 10px 10px 10px 0; }
+.slicknav_nav .slicknav_row { display: block; }
+.slicknav_nav a { display: block }
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a { display: inline }
+.slicknav_menu:before,
+.slicknav_menu:after { content: " "; display: table; }
+.slicknav_menu:after { clear: both }
+/* 
+    User Default Style
+    Change the following styles to modify the appearance of the menu.
+*/
+.slicknav_menu {
+	width:100%;
+	display:none;
+	max-height:400px;
+	overflow:auto;
+}
+.slicknav_btn {
+	position:absolute;
+	right:15px;
+	top:-52px;
+	z-index:2;
+	display:none;
+}
+/* Button Text */
+.slicknav_menu  .slicknav_menutxt {
+	font-size:18px;
+	color:#ff7600;
+	letter-spacing:1px;
+	font-weight:normal;
+	line-height:60px;
+	padding-right:0;
+	text-transform:uppercase;
+	float:left;
+}
+/* Button Lines */
+.slicknav_menu .slicknav_icon-bar {
+}
+.slicknav_nav {
+    margin:0;
+    padding:0;
+	background:#fff;
+}
+.slicknav_nav li {
+	display:block;
+	padding:0;
+	border-top: 1px solid rgba(5, 53, 95, 0);
+	font-weight:500;
+}
+.slicknav_nav li:first-child {
+	border:none;
+}
+.slicknav_nav li ul {
+	border-top: 1px solid rgba(5, 53, 95, 0);
+}
+.slicknav_nav li ul li {
+	font-weight:500;
+}
+.slicknav_nav li a {
+	color:#1a205c;
+	font-size:18px;
+	padding:10px 15px;
+	font-weight:500;
+}
+.slicknav_nav li ul { background-color:#f6f7f7}
+.slicknav_nav li ul li a { font-size:17px;padding:10px 30px; border-bottom:1px solid #edefef}
+.slicknav_nav li ul li ul li a { font-size:16px;padding:10px 40px;}
+.slicknav_menu .slicknav_open > a > a,
+.slicknav_menu .slicknav_open > a {
+	color:#37addb !important;
+}
+.slicknav_nav li a:hover,
+.slicknav_nav li.current_page_item > a {
+	color:#37addb !important;
+	background-color:#edefef;
+}
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a {
+	display: inline-block !important;
+	text-decoration:none !important;
+	padding-bottom:0;
+	padding-top:0;
+	padding-right:0;
+	border:none;
+}
+@media screen and (max-width:1200px ){
+#menu li {
+	margin-right:20px;
+}
+.banner_form h1,
+.banner_info h1 {
+	font-size:36px;
+}
+.header_right .login-btn, .header_right .opvoedhulp-btn { margin-left:10px}
+.footer_area::after { display:none}
+}
+@media screen and (max-width:991px ){
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 { padding-bottom:20px}
+.entry-content h1 {
+    font-size: 35px;
+}
+.entry-content h2 {
+    font-size: 24px;
+}
+.entry-content h3 {
+    font-size: 16px;
+}
+.entry-content h4 {
+    font-size: 16px;
+}
+.entry-content h5 {
+    font-size: 16px;
+}
+.entry-content h6 {
+    font-size: 16px;
+}
+.entry-content ul,
+.entry-content ol {
+   	padding: 0 0 24px 0;
+}
+.entry-content ul li {
+    padding-left: 25px;
+	padding-bottom:15px;
+}
+.only_desktop_view { display:none !important}
+.only_mobile_view { display:block !important}
+.header {
+	padding:15px 0;
+	height:66px;
+}
+#top_menu,
+#menu { display:none}
+.logo {
+	width:140px;
+}
+.slicknav_menu {
+	display:block;
+}
+#menu_holder .slicknav_nav { display:block !important}
+#menu_holder {
+	display:block;
+	width:auto;
+	margin:0 -15px;
+}
+.menu_bar { display:block}
+.top_bar_area { padding:0;}
+.top_bar {
+	padding: 0;
+	min-height:inherit;
+}
+.top_bar_right {
+	width:100%;
+	text-align:center;
+}
+/*.analytics_item {
+	border-left:1px solid rgba(255,255,255,0.4);
+	padding:35px 10px 8px;
+	text-align:center;
+	width:33.33%;
+	justify-content: center;
+}
+*/.header  .star_box .fa {
+    font-size: 16px;
+    line-height: 1;
+    padding-right: 5px;
+}
+/*.analytics_item1 { border:none}
+.analytics_item1 {
+	background-position: center top;
+}
+.analytics_item2 .fa,
+.analytics_item .fa {
+	top:9px;
+	right:0;
+	left:0;
+	margin:0 auto;
+}
+.analytics_item .fa img {filter: brightness(0) invert(1);}
+.analytics_item .fa { max-width:20px}
+*/.analytics_item strong {
+	font-size:12px;
+	line-height:12px;
+	padding-bottom:0;
+}
+.analytics_item span {
+	font-size:10px;
+	line-height:11px;
+}
+.header_two_button {
+    padding-left: 0;
+	padding-top:15px;
+}
+.header_two_button a.blue_button {
+	margin-left:0;
+}
+.header_right .opvoedhulp-btn {
+	padding:5px 15px;
+	height:34px;
+	border-radius:18px;
+	border:1px solid #eead1d;
+	background-color:#eead1d;
+	color:#fff;
+	font-size:14px;
+	text-align:center;
+	line-height:22px;
+	font-weight:700;
+	margin-left:0;
+	margin-right:22px;
+}
+.header_right .opvoedhulp-btn:hover {
+	border-color:#f6bd3f;
+	background-color:#f6bd3f;
+}
+.banner {
+	padding:30px 0 30px 0;
+	height:auto;
+	display:block;
+	min-height:426px;
+}
+.banner_info {
+	width:100%;
+	padding:0;
+	margin:0;
+	padding-bottom:70px;
+}
+.banner_form h1 { padding-bottom:20px; font-size:30px}
+.banner_info p {
+	font-size:18px;
+	line-height:26px;
+	max-width:280px;
+}
+.banner_info h1 {
+	font-size:30px;
+	line-height:40px;
+	padding-bottom:15px;
+}
+.banner-search-bar { padding-top:3px}
+.b-search-col2 { display:none}
+.b-search-col3 {
+	width:58%;
+}
+.b-search-col4 {
+	width:100%;
+	padding-top:20px;
+}
+.b-search-wrap .b-form-submit {
+	width:170px;
+	margin:0 auto;
+	border-radius:23px;
+	display:block;
+}
+.b-search-col-mb {
+	width:42%;
+	display:block;
+}
+.b-search-col1 {
+	width:100%;
+	padding:0;
+}
+.b-search-col1 .form-control {
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	border-radius: 9px;
+}
+.b-search-col3,
+.b-search-col-mb { display:none}
+.b-search-option2 .b-search-col3,
+.b-search-option2 .b-search-col-mb { padding-top:1px; display:block}
+.b-search-col-mb select,
+.b-search-col-mb .selectric {
+	-moz-border-radius-bottomleft: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+
+.b-search-col3 select,
+.b-search-col3 .selectric {
+	-moz-border-radius-bottomright: 9px;
+	-webkit-border-bottom-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	border-left:1px solid #979abb;
+}
+.b-search-option2 .b-search-col1 .form-control {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	-moz-border-radius-topleft: 9px;
+	-webkit-border-top-left-radius: 9px;
+	 border-top-left-radius: 9px;
+	-moz-border-radius-topright: 9px;
+	-webkit-border-top-right-radius: 9px;
+	border-top-right-radius: 9px;
+}
+html,body { overflow-x:hidden}
+}
+@media screen and (max-width:767px ){
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6 {
+	line-height:1.3;
+}
+.footer {
+	padding:35px 0 15px 0;
+}
+.footer_widget {
+	width:100%;
+	padding-bottom:30px;
+}
+.footer_logo span {
+	padding-right:15px;
+}
+.footer_widget h4 {
+	padding-bottom:22px;
+}
+.footer_widget p { line-height:26px}
+.footer_widget ul li {
+}
+.form_filed_50 {
+	width:100%;
+}
+.copyright {
+	padding:30px 0 28px 0;
+	display:block;
+}
+.footer_logo {
+	width:100%;
+	padding-bottom:28px;
+}
+}
